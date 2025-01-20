@@ -1,37 +1,42 @@
-# Proyek Penelitian: Pengembangan Model Peringkasan Teks Abstraktif Berbasis BiLSTM dan Mekanisme Attention
+# Research Project: Development of Abstractive Text Summarization Model Based on BiLSTM and Attention Mechanism
 
 ## Overview
-Penelitian ini bertujuan mengembangkan model peringkasan teks abstraktif berbasis BiLSTM dengan mekanisme attention, difokuskan pada cerita Mahabharata dalam bahasa Jawa. Penelitian ini mengeksplorasi bagaimana model peringkasan abstraktif dapat diadaptasi untuk bahasa Jawa dengan mempertimbangkan aspek linguistik dan budaya dalam cerita Mahabharata. Sebagai inovasi, penelitian ini menggunakan pendekatan hybrid berbasis BiLSTM dan attention untuk menyesuaikan karakteristik cerita Mahabharata.
+This research aims to develop an abstractive text summarization model based on BiLSTM with an attention mechanism, focusing on the Mahabharata stories in Javanese. The study explores how abstractive summarization models can be adapted for the Javanese language, considering the linguistic and cultural aspects of the Mahabharata stories. As an innovation, this research employs a hybrid approach based on BiLSTM and attention to align with the characteristics of the Mahabharata stories.
 
-Hasil dari penelitian ini diharapkan dapat memberikan kontribusi terhadap teknologi peringkasan otomatis, khususnya untuk bahasa Jawa, serta menghasilkan solusi yang relevan secara akademik dan praktis.
+The results of this research are expected to contribute to automatic summarization technology, particularly for the Javanese language, and provide solutions that are academically and practically relevant.
 
 ## Metadata
-- **Model**: BiLSTM + Mekanisme Attention
-- **Fokus Dataset**: Cerita Mahabharata dalam bahasa Jawa
-- **Metode Evaluasi**: ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
-- **Bahasa**: Jawa
-- **Sumber Data**: Website [sastra.org](https://sastra.org)
+- **Model**: BiLSTM + Attention Mechanism
+- **Dataset Focus**: Mahabharata stories in Javanese
+- **Evaluation Method**: ROUGE (Recall-Oriented Understudy for Gisting Evaluation)
+- **Language**: Javanese
+- **Data Source**: Website [sastra.org](https://sastra.org)
 - **Output Dataset Format**: CSV
 
 ## Tools
 - **Platform**: Google Colab
-- **Framework Pemrograman**: Python
-- **Library Utama**:
-  - TensorFlow/Keras: Untuk pengembangan model BiLSTM
-  - NLTK/Spacy: Untuk preprocessing teks
-  - BeautifulSoup: Untuk web scraping dataset
-  - Pandas: Untuk pengelolaan dataset
-  - ROUGE-metric library: Untuk evaluasi kinerja model
-- **API**: ChatGPT (sebagai referensi tambahan untuk ringkasan, maksimal 10% dari teks asli)
+- **Programming Framework**: Python
+- **Main Libraries**:
+  - TensorFlow/Keras: For BiLSTM model development
+  - NLTK/Spacy: For text preprocessing
+  - BeautifulSoup: For web scraping the dataset
+  - Pandas: For dataset management
+  - ROUGE-metric library: For model performance evaluation
+- **API**: ChatGPT (as an additional reference for summaries, limited to a maximum of 10% of the original text)
 
-## Cara Penginstalan
-1. **Buka Google Colab**:
-   - Pastikan Anda memiliki akun Google untuk mengakses Google Colab.
+## Installation Guide
+1. **Open Google Colab**:
+   - Ensure you have a Google account to access Google Colab.
 
-2. **Clone Repository**:
-   - Gunakan perintah berikut di salah satu cell Google Colab:
+2. **Clone the Repository**:
+   - Use the following command in one of the Google Colab cells:
      ```python
      !git clone <repository-url>
      %cd <repository-directory>
      ```
 
+3. **Install Dependencies**:
+   - Install the required libraries:
+     ```python
+     !pip install -r requirements.txt
+     ```
